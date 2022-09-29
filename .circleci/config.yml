@@ -5,7 +5,7 @@ executors:
     docker:
       - image: cimg/base:stable
         auth:
-          # ensure you have first added these secrets
+          # ensure you have first added these secrets h
           # visit app.circleci.com/settings/project/github/TylerMerc/COMP229-Assignment-1/environment-variables
           username: $DOCKER_HUB_USER
           password: $DOCKER_HUB_PASSWORD
